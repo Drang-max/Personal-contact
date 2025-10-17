@@ -42,6 +42,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'usehook',
     component: () => import('@/views/useHook.vue'),
   },
+  {
+    path: '/sequence',
+    name: 'sequence',
+    component: () => import('@/views/SequenceDiagram.vue'),
+  },
 ];
 
 const router = createRouter({

@@ -6,7 +6,8 @@
     <router-link to="/validation">验证码输入框</router-link>|
     <router-link to="/conditionalfilter">多条件选择</router-link>|
     <router-link to="/lazyLoader">懒加载</router-link>|
-    <router-link to="/usehook">功能函数的使用</router-link>
+    <router-link to="/usehook">功能函数的使用</router-link>|
+    <router-link to="/sequence">序列图原型</router-link>
   </nav>
   <router-view />
 </template>
